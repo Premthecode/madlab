@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	//declaring variables
+	string  adjective, adjectivee, typeofbird, roominthehouse,pverb, verb, relativesname, noun, aliquid, verbendingi, partofthebodypural, pluralnouns, verbendining, nounn;
+
+	//prompt and read input
+	cout << "choose a adjective: ";
+	getline(cin, adjective);
+	cout << "\nchoose a adjective again: ";
+	getline(cin, adjectivee);
+	cout << "\nChoose a type of bird";
+	getline(cin, typeofbird);
+	cout << "\nchoose the number of room in the house: ";
+	getline(cin, roominthehouse);
+	cout << "\nchoose a verb that is past tense: ";
+	getline(cin, pverb); 
+	cout << "\nchoose a verb: ";
+	getline(cin, verb); 
+	cout << "\nchoose a relative's name:"; 
+	getline(cin, relativesname); 
+	cout << "\nchoose a noun: "; 
+	getline(cin, noun);
+	cout << "\nchoose a liquid: "; 
+	getline(cin, aliquid);
+	cout << "\nchoose a verb ending in -ing: ";
+	getline(cin, verbendingi);
+	cout << "\nchoose a part of body(plural): ";
+	getline(cin, partofthebodypural);
+	cout << "\nchoose a pural nouns: ";
+	getline(cin, pluralnouns);
+	cout << "\nchoose a verb ending in -ing: ";
+	getline(cin, verbendining);
+	cout << "/nchoose a noun: ";
+	getline(cin, nounn);
+
+	//displaying output
+	cout << "\n""It was a" << adjective << ", cold Novemver day. I woke up to the " << adjectivee << " smell of " << typeofbird << " roasting in the " << roominthehouse << " downstairs. I " << pverb << " down the stairs to see if I could help" << verb << " the dinner. My mom said, that if " << relativesname >> " needs a fresh " << noun << ". So I carried a tray of glasses full of" << aliquid << " into the " << verbendingi >> " room. When I got there, I couldn't believe my " << partofthebodypural >> "! There were " << pluralnouns>><<verbendining >> " on the " << noun >> "!";
+
+
+		return 0;
+}
